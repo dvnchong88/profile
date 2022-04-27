@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Patrick+Hand&display=swap');
+
+body {
+  font-family: 'Patrick Hand', cursive;
+  background-color: #006E7F;
+  font-size: 200%;
+  line-height: 1.2;
+  color: #F8CB2E;
+}
+
+h1, h2 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 200%;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Customized style */
+.card-red {
+  background-color: #B22727;
+  border-radius: 5%;
+  margin: 40px auto;
+  padding: 16px 24px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgb(0 0 0 / 30%);
+  /* margin: 48px; */
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+#fixed {
+  position:fixed;
+  bottom:10px;
+  left:10px;
+}
+
+img.img-circle {
+  width: 200px;
+  max-width: 100%;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+  /* object-position: 44% 50%; */
+}
+
+img.meme {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 5%;
+  object-fit: cover;
+  margin: 0 auto;
+  /* object-position: 44% 50%; */
+}
+
+a.btn-green {
+  padding: 16px 24px;
+  border-radius: 4px;
+  display: inline-block;
+  color: #B22727;
+  background-color: #F8CB2E;
+}
+
+a.btn-green:hover {
+  background-color: #006E7F;
+  color: #F8CB2E;
+  transition: .3s;
+}
+
+ul.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+ul.list-inline li {
+  display: inline;
+}
+
+ul.list-inline a {
+  font-size: 64px;
+  color: #F8CB2E;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
