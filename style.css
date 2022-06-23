@@ -17,9 +17,9 @@ a {
   text-decoration: none;
 }
 
-.container{
-  width: 700px;
+.container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -27,7 +27,7 @@ a {
 .card-red {
   background-color: #670101;
   border-radius: 5%;
-  margin: 36px, 36px;
+  margin: 36px, 36px, 36px, 36px;
   padding: 16px 24px;
   text-align: center;
   box-shadow: 0px 8px 16px rgb(0 0 0 / 30%);
@@ -64,14 +64,14 @@ img.img-circle {
 }
 
 img.meme {
-  width: 300px;
+  width: 200px;
   border-radius: 5%;
   object-fit: cover;
   margin-top: 36px;
   /* object-position: 44% 50%; */
 }
 
-a.btn-green {
+a.btn-white {
   padding: 16px 24px;
   border-radius: 16px;
   display: inline-block;
@@ -79,7 +79,7 @@ a.btn-green {
   background-color: #F6F7EB;
 }
 
-a.btn-green:hover {
+a.btn-white:hover {
   background-color: #222222;
   color: #F6F7EB;
   transition: .3s;
