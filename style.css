@@ -2,76 +2,88 @@
 
 body {
   font-family: 'Patrick Hand', cursive;
-  background-color: #006E7F;
+  background-color: #222222;
   font-size: 200%;
   line-height: 1.2;
-  color: #F8CB2E;
+  color: #F6F7EB;
 }
 
 h1, h2 {
   font-family: 'Gochi Hand', cursive;
   font-size: 200%;
-  line-height: 1;
 }
 
 a {
   text-decoration: none;
 }
 
+.container{
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /* Customized style */
 .card-red {
-  background-color: #B22727;
+  background-color: #670101;
   border-radius: 5%;
-  margin: 40px auto;
+  margin: 36px, 36px;
   padding: 16px 24px;
   text-align: center;
   box-shadow: 0px 8px 16px rgb(0 0 0 / 30%);
   /* margin: 48px; */
 }
 
-.container {
-  margin: 0 auto;
-  width: 700px;
+.card-banner {
+  background-image: url("images/download (1).gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  margin-bottom: 36px;
+  padding: 16px 24px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgb(0 0 0 / 30%);
+  /* margin: 48px; */
 }
 
-#fixed {
-  position:fixed;
-  bottom:10px;
-  left:10px;
+.card-footer {
+  background-color: #670101;
+  margin-top: 36px;
+  padding: 16px 24px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgb(0 0 0 / 30%);
+  /* margin: 48px; */
 }
-
 img.img-circle {
   width: 200px;
-  max-width: 100%;
   border-radius: 50%;
   height: 200px;
   object-fit: cover;
-  margin: 0 auto;
   /* object-position: 44% 50%; */
 }
 
 img.meme {
   width: 300px;
-  max-width: 100%;
   border-radius: 5%;
   object-fit: cover;
-  margin: 0 auto;
+  margin-top: 36px;
   /* object-position: 44% 50%; */
 }
 
 a.btn-green {
   padding: 16px 24px;
-  border-radius: 4px;
+  border-radius: 16px;
   display: inline-block;
   color: #B22727;
-  background-color: #F8CB2E;
+  background-color: #F6F7EB;
 }
 
 a.btn-green:hover {
-  background-color: #006E7F;
-  color: #F8CB2E;
+  background-color: #222222;
+  color: #F6F7EB;
   transition: .3s;
+  text-decoration: none;
 }
 
 ul.list-inline {
@@ -85,8 +97,9 @@ ul.list-inline li {
 
 ul.list-inline a {
   font-size: 64px;
-  color: #F8CB2E;
+  color: #F6F7EB;
 }
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
